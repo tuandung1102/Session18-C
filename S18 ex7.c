@@ -30,7 +30,7 @@ int main() {
             for (int j = i; j < currentCount - 1; j++) {
                 students[j] = students[j + 1];
             }
-            currentCount--; // Gi?m s? lu?ng sinh viên
+            currentCount--; 
             printf("Student '%s' has been deleted.\n", nameToDelete);
             break;
         }
